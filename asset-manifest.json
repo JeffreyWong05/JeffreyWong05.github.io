@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/JeffreyWong05/JeffreyWong05.github.io/static/css/main.073c9b0a.css",
+    "main.js": "/JeffreyWong05/JeffreyWong05.github.io/static/js/main.06d9f6f3.js",
+    "static/js/787.0eda1171.chunk.js": "/JeffreyWong05/JeffreyWong05.github.io/static/js/787.0eda1171.chunk.js",
+    "static/media/logo.svg": "/JeffreyWong05/JeffreyWong05.github.io/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/JeffreyWong05/JeffreyWong05.github.io/index.html",
+    "main.073c9b0a.css.map": "/JeffreyWong05/JeffreyWong05.github.io/static/css/main.073c9b0a.css.map",
+    "main.06d9f6f3.js.map": "/JeffreyWong05/JeffreyWong05.github.io/static/js/main.06d9f6f3.js.map",
+    "787.0eda1171.chunk.js.map": "/JeffreyWong05/JeffreyWong05.github.io/static/js/787.0eda1171.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.073c9b0a.css",
+    "static/js/main.06d9f6f3.js"
+  ]
+}
