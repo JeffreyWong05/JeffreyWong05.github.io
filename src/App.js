@@ -5,16 +5,18 @@ import Careers from "./routes/Careers";
 import Home from "./routes/Home";
 import Navbar from './Navbar';
 import React, { Component }  from 'react';
+import SoloCreations from './routes/ProjectRoutes/SoloCreations';
 function App() {
   return (
     <div className='App'>
-    <h2>Hi, welcome to my website!</h2>
-    <Navbar />
-    <Routes>
-      <Route path="/" element={<Home />} />
-      <Route path="/about" element={<About />} />
-      <Route path="/careers" element={<Careers />} />
-    </Routes>
+      
+      <Navbar />
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/about" element={<About />} />
+        <Route path="/careers" element={<Careers />} />
+        <Route path="/Careers/OtherProjects" element={<SoloCreations/>} />
+      </Routes>
     </div>
   );
 }
