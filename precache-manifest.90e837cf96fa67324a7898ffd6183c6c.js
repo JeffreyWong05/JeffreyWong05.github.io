@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "2e5367ea3857850c0f48",
+    "revision": "fde32148f024d24c19b3",
     "url": "/static/css/main.c334b765.chunk.css"
   },
   {
-    "revision": "2e5367ea3857850c0f48",
-    "url": "/static/js/main.da652c8e.chunk.js"
+    "revision": "fde32148f024d24c19b3",
+    "url": "/static/js/main.3249115d.chunk.js"
   },
   {
     "revision": "3a6d8df43e891d1a2c55",
@@ -28,7 +28,7 @@ self.__precacheManifest = [
     "url": "/static/media/Pixel-LCD-7.e2897552.woff"
   },
   {
-    "revision": "4b6bc6b578324e69969d2d49a401a630",
+    "revision": "381ed248e697268dc7556ae486ef2676",
     "url": "/index.html"
   }
 ];
