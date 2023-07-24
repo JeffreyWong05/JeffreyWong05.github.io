@@ -54,6 +54,14 @@ export const usePlayer = () => {
       collided: false,
     })
   }, [])
+  
+  const resetBomb = useCallback(() => {
+    setPlayer({
+      pos: { x: STAGE_WIDTH / 2 - 2, y: 0 },
+      tetromino: TETROMINOS['B'].shape,
+      collided: false,
+    })
+  }, [])
 
-  return [player, updatePlayerPos, resetPlayer, playerRotate];
+  return [player, updatePlayerPos, resetPlayer,resetBomb, playerRotate];
 }

@@ -10,7 +10,7 @@ const Navbar =()=>{
                   
                   <div><Link to="/careers"> Projects </Link></div>
 
-                  <div><Link to="/TetrisBomb"> myTetris </Link> </div>
+                  <div><Link to="/TetrisBomb"> My Tetris </Link> </div>
             </div>
       )
 }
