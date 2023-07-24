@@ -6,7 +6,7 @@ const SoloCreations =()=>{
             
         <div>
             <h1>Projects</h1>
-            <div class="flex-container">
+            <div class="flex-container2">
             <div><Link to="/Careers"> Hackathons </Link></div>
         
             <div><Link to="/Careers/OtherProjects"> Other Projects </Link></div>

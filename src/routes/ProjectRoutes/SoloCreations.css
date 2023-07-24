@@ -1,0 +1,13 @@
+.flex-container2 {
+    display:flex;
+    background-color: #523939;
+    justify-content: center;
+}
+
+.flex-container2 > div {
+    background-color: #846e6e;
+    margin: 5px;
+    padding: 10px;
+    font-size: 20px;
+    
+  }
