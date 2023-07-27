@@ -69,7 +69,7 @@ const Tetris = () => {
 
     const keyUp = ({ keyCode }) => {
         if (!gameOver) {
-            if (keyCode === 83 || keyCode === 32) {
+            if (keyCode === 83) {
                 console.log("interval on");
                 setDropTime(1000 / (level + 1) + 200);
             }
@@ -83,14 +83,14 @@ const Tetris = () => {
     }
 
     const instDrop = () => { //immediately drop the block
-        console.log(player.pos.y);
+        //console.log(player.pos.y);
 
         let maxDrop = 0;
         
         for (let i=0; i < STAGE_HEIGHT - player.pos.y; i++) {
 
-            console.log(!checkCollision(player, stage, { x: 0, y: i}));
-            console.log(i);
+            //console.log(!checkCollision(player, stage, { x: 0, y: i}));
+            //console.log(i);
 
             if (checkCollision(player, stage, { x: 0, y: i})) {
                 maxDrop = i-1;
@@ -101,7 +101,8 @@ const Tetris = () => {
         }
         
         updatePlayerPos({ x: 0, y: maxDrop, collided: true });
-        
+        console.log(player.pos.y);
+        console.log(player.pos.x);
     }
 
     const move = ({ keyCode }) => {
@@ -114,7 +115,7 @@ const Tetris = () => {
                 dropPlayer();
             } else if (keyCode === 87) {
                 playerRotate(stage, 1);
-            } else if (keyCode === 32) {
+            } else if (keyCode === 16) {
                 instDrop();
             }
         }
@@ -144,7 +145,7 @@ const Tetris = () => {
                     )}
                     <StartButton callback={startGame} />
                     <div><Display text="How to play: ASD Keys to move.
-                    W key to rotate, and space bar to drop immediately."/></div>
+                    W key to rotate, and SHIFT to drop immediately."/></div>
                 </aside>
             </StyledTetris>
         </StyledTetrisWrapper>
