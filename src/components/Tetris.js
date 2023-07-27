@@ -100,7 +100,7 @@ const Tetris = () => {
             maxDrop = i-1;
         }
         
-        updatePlayerPos({ x: 0, y: maxDrop, collided: false });
+        updatePlayerPos({ x: 0, y: maxDrop, collided: true });
         
     }
 
