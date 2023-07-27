@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 
-import { createStage, checkCollision } from '../gameHelper';
+import { createStage, checkCollision, STAGE_HEIGHT } from '../gameHelper';
 
 // styled components
 import { StyledTetrisWrapper, StyledTetris } from './styles/styledTetris';
@@ -69,7 +69,7 @@ const Tetris = () => {
 
     const keyUp = ({ keyCode }) => {
         if (!gameOver) {
-            if (keyCode === 83) {
+            if (keyCode === 83 || keyCode === 32) {
                 console.log("interval on");
                 setDropTime(1000 / (level + 1) + 200);
             }
@@ -82,6 +82,28 @@ const Tetris = () => {
         drop();
     }
 
+    const instDrop = () => { //immediately drop the block
+        console.log(player.pos.y);
+
+        let maxDrop = 0;
+        
+        for (let i=0; i < STAGE_HEIGHT - player.pos.y; i++) {
+
+            console.log(!checkCollision(player, stage, { x: 0, y: i}));
+            console.log(i);
+
+            if (checkCollision(player, stage, { x: 0, y: i})) {
+                maxDrop = i-1;
+                break;
+            }
+
+            maxDrop = i-1;
+        }
+        
+        updatePlayerPos({ x: 0, y: maxDrop, collided: false });
+        
+    }
+
     const move = ({ keyCode }) => {
         if (!gameOver) {
             if (keyCode === 65) {
@@ -92,6 +114,8 @@ const Tetris = () => {
                 dropPlayer();
             } else if (keyCode === 87) {
                 playerRotate(stage, 1);
+            } else if (keyCode === 32) {
+                instDrop();
             }
         }
     }
@@ -120,7 +144,7 @@ const Tetris = () => {
                     )}
                     <StartButton callback={startGame} />
                     <div><Display text="How to play: ASD Keys to move.
-                    W key to rotate tetromino"/></div>
+                    W key to rotate, and space bar to drop immediately."/></div>
                 </aside>
             </StyledTetris>
         </StyledTetrisWrapper>
