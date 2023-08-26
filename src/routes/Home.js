@@ -1,16 +1,45 @@
 import { Link } from "react-router-dom"
 import React, { Component }  from 'react';
 
+import { useState } from 'react'
+
+
 
 const Home =()=>{
-      return (
-            <div>
-                  
-                  <h2>Hi, my name is Jeffrey Wong. Welcome to my website!</h2>
-                  <p>Check out my most recent project of my modified <Link to="/TetrisBomb"> Tetris!</Link> Also feel free to 
-                        click one of the links above to get started!</p>
 
-            </div>
+      const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
+
+      const navigation = [
+            { name: 'Product', href: '#' },
+            { name: 'Features', href: '#' },
+            { name: 'Marketplace', href: '#' },
+            { name: 'Company', href: '#' },
+      ]
+          
+
+      return (
+            <div class="w-full h-full bg-[url('https://cdn.discordapp.com/attachments/1029635450895339603/1144908141964820550/pixilart-SKY_scaled_40x_pngcrushed.png')] bg-no-repeat bg-cover bg-fixed">
+            
+    
+    <div class="mx-auto max-w-2xl py-32 sm:py-48 lg:py-40">
+      <div class="hidden sm:mb-8 sm:flex sm:justify-center">
+        <div class="relative rounded-full px-3 py-1 text-sm leading-6 text-gray-600 ring-1 ring-gray-900/10 hover:ring-gray-900/20">
+          Check out my latest project <a href="#/TetrisBomb" class="font-semibold text-indigo-600"><span class="absolute inset-0" aria-hidden="true"></span> here <span aria-hidden="true">&rarr;</span></a>
+        </div>
+      </div>
+      <div class="text-center">
+        <h1 class="text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl">Coding whatever, whenever</h1>
+        <p class="mt-6 text-lg leading-8 text-gray-600">A statistics specialist with interests in games and websites.</p>
+        <div class="mt-10 flex items-center justify-center gap-x-6">
+          <a href="#/Careers" class="rounded-md bg-indigo-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">Get started</a>
+          <a href="#/About" class="text-sm font-semibold leading-6 text-gray-900">Learn more <span aria-hidden="true">→</span></a>
+        </div>
+      </div>
+    </div>
+    
+  
+
+      </div>
       )
 }
 export default Home;

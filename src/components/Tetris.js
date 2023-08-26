@@ -1,3 +1,6 @@
+//IMPORTANT: For some reason, the space bar acts as the "submit button' and presses the
+//Start button. But when I click the screen and "focus" on the game, it disapears.
+
 import React, { useState } from 'react';
 
 import { createStage, checkCollision, STAGE_HEIGHT } from '../gameHelper';
@@ -83,14 +86,10 @@ const Tetris = () => {
     }
 
     const instDrop = () => { //immediately drop the block
-        //console.log(player.pos.y);
 
         let maxDrop = 0;
         
         for (let i=0; i < STAGE_HEIGHT - player.pos.y; i++) {
-
-            //console.log(!checkCollision(player, stage, { x: 0, y: i}));
-            //console.log(i);
 
             if (checkCollision(player, stage, { x: 0, y: i})) {
                 maxDrop = i-1;
