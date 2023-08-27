@@ -20,8 +20,6 @@ function App() {
         <Route path="/TetrisBomb" element={<AppGame />} />
         <Route path="/Careers/OtherProjects" element={<SoloCreations/>} />
       </Routes>
-
-    
     </div>
   );
 }
