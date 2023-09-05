@@ -51,9 +51,10 @@ const About =()=>{
         <div className="mx-auto max-w-2xl lg:mx-0">
           <h2 className="text-4xl font-bold tracking-tight text-white sm:text-6xl">Hi, my name is Jeffrey Wong</h2>
           <p className="mt-6 text-lg leading-8 text-gray-300">
-          I have experience as a full-stack developer and a game developer, with a background in statistics.
-          I'm always looking forward to improving my skills as a coder, and willing to try new things. 
-          With seven years of experience in coding in various languages, 
+          I'm 4th year statistics student who has dabbled with databases like MongoDB, 
+          game software like Unity and statistics tools like Jupyter and Rstudio. 
+          I'm always willing to try new things, currently I'm learning tailwindcss (Inspect this page!). 
+          With several years of experience in coding in various languages, 
           I can help customers modernize with websites and games to appeal to expanding customer populations.
           </p>
         </div>
