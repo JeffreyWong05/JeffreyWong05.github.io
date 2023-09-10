@@ -55,7 +55,7 @@ const About =()=>{
           game software like Unity and statistics tools like Jupyter and Rstudio. 
           I'm always willing to try new things, currently I'm learning tailwindcss (Inspect this page!). 
           With several years of experience in coding in various languages, 
-          I can help customers modernize with websites and games to appeal to expanding customer populations.
+          I can help modernize websites, create games, analyze data and more.
           </p>
         </div>
         <div className="mx-auto mt-10 max-w-2xl lg:mx-0 lg:max-w-none">
