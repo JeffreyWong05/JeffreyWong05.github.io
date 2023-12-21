@@ -3,6 +3,7 @@ import React, { Component }  from 'react';
 
 import { useState } from 'react'
 
+import Pdf from '../routes/Jeffrey_Wong_Resume.pdf';
 
 
 const Home =()=>{
@@ -17,8 +18,14 @@ const Home =()=>{
       ]
           
 
+      const links = [
+        { name: 'Email', href: 'mailto:jeffjeff217@hotmail.com' },
+        { name: 'Github', href: 'https://github.com/JeffreyWong05' },
+        { name: 'LinkedIn', href: 'https://www.linkedin.com/in/jeffreywong05/' },
+      ]
+
       return (
-            <div class="absolute inset-0 -z-10 w-full h-full bg-[url('https://cdn.discordapp.com/attachments/1029635450895339603/1144908141964820550/pixilart-SKY_scaled_40x_pngcrushed.png')] bg-no-repeat bg-cover bg-fixed">
+            <div class="absolute inset-0 -z-10 w-full h-full bg-[url('https://cdn.discordapp.com/attachments/1029635450895339603/1144908141964820550/pixilart-SKY_scaled_40x_pngcrushed.png')] bg-scroll bg-cover overflow-y-auto">
             
     
     <div class="mx-auto max-w-2xl py-32 sm:py-48 lg:py-40">
@@ -37,7 +44,16 @@ const Home =()=>{
       </div>
     </div>
     
-  
+    
+
+    <div className="pb-10 justify-center object-contain grid grid-cols-1 gap-x-8 gap-y-6 text-base font-semibold leading-7 text-black sm:grid-cols-2 md:flex lg:gap-x-10">
+            {links.map((link) => (
+              <a key={link.name} href={link.href}>
+                {link.name} <span aria-hidden="true">&rarr;</span>
+              </a>
+            ))}
+            <a href = {Pdf} target = "_blank">My Resume &rarr;</a>
+    </div>
 
       </div>
       )

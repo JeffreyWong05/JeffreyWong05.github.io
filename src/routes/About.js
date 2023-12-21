@@ -4,7 +4,7 @@ const About =()=>{
 
       const links = [
             { name: 'My Projects', href: '#/careers' }
-          ]
+      ]
           const stats = [
             { name: 'Internships participated in last year', value: '3' },
             { name: 'Sprites created for games', value: '100+' },
@@ -13,15 +13,11 @@ const About =()=>{
           ]
 
       return (
-            <div>
+            <div class="absolute inset-0 -z-10 w-full h-full bg-[url('https://cdn.discordapp.com/attachments/1029635450895339603/1145243152324759593/night-pixilart_2_scaled_40x_pngcrushed.png')] bg-scroll bg-cover overflow-y-auto">
                   
 
-                  <div className="py-20">
-      <img
-        src="https://cdn.discordapp.com/attachments/1029635450895339603/1145243152324759593/night-pixilart_2_scaled_40x_pngcrushed.png"
-        alt=""
-        className="absolute inset-0 -z-10 h-full w-full object-cover object-bottom md:object-top"
-      />
+                  <div className="pt-20">
+      
       {/* BELOW IS THE PURPLE BLURS THAT ARE UNEEDED */}
       {/* <div
         className="hidden sm:absolute sm:-top-10 sm:right-1/2 sm:-z-10 sm:mr-10 sm:block sm:transform-gpu sm:blur-3xl"
@@ -47,7 +43,7 @@ const About =()=>{
           }}
         />
       </div> */}
-      <div className="mx-auto max-w-7xl px-6 lg:px-8">
+      <div className="py-10 mx-auto max-w-7xl px-6 lg:px-8">
         <div className="mx-auto max-w-2xl lg:mx-0">
           <h2 className="text-4xl font-bold tracking-tight text-white sm:text-6xl">Hi, my name is Jeffrey Wong</h2>
           <p className="mt-6 text-lg leading-8 text-gray-300">

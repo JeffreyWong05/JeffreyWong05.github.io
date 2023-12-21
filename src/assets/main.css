@@ -860,16 +860,8 @@ video {
   border-width: 1px;
 }
 
-.border-2 {
-  border-width: 2px;
-}
-
 .border-4 {
   border-width: 4px;
-}
-
-.border-solid {
-  border-style: solid;
 }
 
 .border-double {
@@ -926,6 +918,10 @@ video {
   background-image: url('https://cdn.discordapp.com/attachments/1029635450895339603/1144908141964820550/pixilart-SKY_scaled_40x_pngcrushed.png');
 }
 
+.bg-\[url\(\'https\:\/\/cdn\.discordapp\.com\/attachments\/1029635450895339603\/1145243152324759593\/night-pixilart_2_scaled_40x_pngcrushed\.png\'\)\] {
+  background-image: url('https://cdn.discordapp.com/attachments/1029635450895339603/1145243152324759593/night-pixilart_2_scaled_40x_pngcrushed.png');
+}
+
 .bg-\[url\(\'https\:\/\/cdn\.discordapp\.com\/attachments\/1029635450895339603\/1147825303662628894\/blossom-pixilart_2_scaled_40x_pngcrushed\.png\'\)\] {
   background-image: url('https://cdn.discordapp.com/attachments/1029635450895339603/1147825303662628894/blossom-pixilart_2_scaled_40x_pngcrushed.png');
 }
@@ -956,24 +952,12 @@ video {
   background-size: cover;
 }
 
-.bg-fixed {
-  background-attachment: fixed;
-}
-
 .bg-scroll {
   background-attachment: scroll;
 }
 
-.bg-no-repeat {
-  background-repeat: no-repeat;
-}
-
-.object-cover {
-  object-fit: cover;
-}
-
-.object-bottom {
-  object-position: bottom;
+.object-contain {
+  object-fit: contain;
 }
 
 .p-1 {
@@ -1029,6 +1013,11 @@ video {
   padding-bottom: 0.25rem;
 }
 
+.py-10 {
+  padding-top: 2.5rem;
+  padding-bottom: 2.5rem;
+}
+
 .py-2 {
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
@@ -1037,11 +1026,6 @@ video {
 .py-2\.5 {
   padding-top: 0.625rem;
   padding-bottom: 0.625rem;
-}
-
-.py-20 {
-  padding-top: 5rem;
-  padding-bottom: 5rem;
 }
 
 .py-24 {
@@ -1072,6 +1056,10 @@ video {
 .py-8 {
   padding-top: 2rem;
   padding-bottom: 2rem;
+}
+
+.pb-10 {
+  padding-bottom: 2.5rem;
 }
 
 .pb-14 {
@@ -1108,6 +1096,10 @@ video {
 
 .pt-2 {
   padding-top: 0.5rem;
+}
+
+.pt-20 {
+  padding-top: 5rem;
 }
 
 .pt-8 {
@@ -1517,10 +1509,6 @@ video {
 
   .md\:flex {
     display: flex;
-  }
-
-  .md\:object-top {
-    object-position: top;
   }
 
   .md\:px-5 {
