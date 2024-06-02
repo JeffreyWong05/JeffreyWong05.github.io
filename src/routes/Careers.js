@@ -2,7 +2,7 @@ import { Link } from "react-router-dom"
 import React, { Component }  from 'react';
 const Careers =()=>{
       return (
-            <div class="absolute inset-0 -z-10 w-full h-full bg-[url('https://cdn.discordapp.com/attachments/1029635450895339603/1147825303662628894/blossom-pixilart_2_scaled_40x_pngcrushed.png')] bg-scroll bg-cover overflow-y-auto">
+            <div class="absolute inset-0 -z-10 w-full h-full bg-[url('../img/blossom-pixilart_2_scaled_40x_pngcrushed.png')] bg-scroll bg-cover overflow-y-auto">
 
 
                   

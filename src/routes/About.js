@@ -1,5 +1,7 @@
 import { Link } from "react-router-dom"
 import React, { Component }  from 'react';
+import bgImage from '../img/night-pixilart_2_scaled_40x_pngcrushed.png';
+
 const About =()=>{
 
       const links = [
@@ -13,7 +15,7 @@ const About =()=>{
           ]
 
       return (
-            <div class="absolute inset-0 -z-10 w-full h-full bg-[url('https://cdn.discordapp.com/attachments/1029635450895339603/1145243152324759593/night-pixilart_2_scaled_40x_pngcrushed.png')] bg-scroll bg-cover overflow-y-auto">
+            <div class="absolute inset-0 -z-10 w-full h-full bg-[url('../img/night-pixilart_2_scaled_40x_pngcrushed.png')] bg-scroll bg-cover overflow-y-auto">
                   
 
                   <div className="pt-20">

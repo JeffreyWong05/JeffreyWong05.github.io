@@ -25,7 +25,7 @@ const Home =()=>{
       ]
 
       return (
-            <div class="absolute inset-0 -z-10 w-full h-full bg-[url('https://cdn.discordapp.com/attachments/1029635450895339603/1144908141964820550/pixilart-SKY_scaled_40x_pngcrushed.png')] bg-scroll bg-cover overflow-y-auto">
+            <div class="absolute inset-0 -z-10 w-full h-full bg-[url('../img/pixilart-SKY_scaled_40x_pngcrushed2.png')] bg-scroll bg-cover overflow-y-auto">
             
     
     <div class="mx-auto max-w-2xl py-32 sm:py-48 lg:py-40">

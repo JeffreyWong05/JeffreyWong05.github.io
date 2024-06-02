@@ -1,6 +1,7 @@
 import './Navbar.css';
 import { Link } from "react-router-dom"
 import React, { Component, useState }  from 'react';
+import icon from './img/computer_scaled_11x_pngcrushed2.png';
 const Navbar =()=>{
 
       const listbtn = [
@@ -77,7 +78,7 @@ const Navbar =()=>{
       </div>
       <div class="flex flex-1 items-center justify-center sm:items-stretch sm:justify-start">
         <div class="flex flex-shrink-0 items-center">
-          <img class="h-8 w-auto" src="https://cdn.discordapp.com/attachments/1029635450895339603/1144722334020817017/computer_scaled_11x_pngcrushed.png" alt="Your Company"/>
+          <img class="h-8 w-auto" src={icon} alt="Your Company"/>
         </div>
         <div class="hidden sm:ml-6 sm:block">
           <div class="flex space-x-4">

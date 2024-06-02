@@ -1,5 +1,6 @@
 import React from 'react';
 import Tetris from './components/Tetris';
+import screenshot from './img/fallingTetroScreenshot.png';
 
 const features = [
     {
@@ -26,7 +27,7 @@ const features = [
 
 
 const AppGame = () => (
-    <div className="bg-[url('https://cdn.discordapp.com/attachments/1029635450895339603/1150339413570768907/falling-tetrominos-pixilart_scaled_40x_pngcrushed.png')] bg-[length:700px_817px]">
+    <div className="bg-[url('../img/falling-tetrominos-pixilart_scaled_40x_pngcrushed2.png')] bg-[length:450px_650px]">
 
         <div className="overflow-hidden py-5 sm:py-10">
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
@@ -61,7 +62,7 @@ const AppGame = () => (
             </div>
           </div>
           <img
-            src="https://cdn.discordapp.com/attachments/1029635450895339603/1150347169409286215/image.png"
+            src={screenshot}
             alt="Product screenshot"
             className="border-double border-4 border-white w-[48rem] max-w-none rounded-xl shadow-xl ring-1 ring-gray-400/10 sm:w-[57rem] md:-ml-4 lg:-ml-0"
             width={2432}
