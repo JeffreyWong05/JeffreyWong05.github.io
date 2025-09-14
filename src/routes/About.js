@@ -49,9 +49,10 @@ const About =()=>{
         <div className="mx-auto max-w-2xl lg:mx-0">
           <h2 className="text-4xl font-bold tracking-tight text-white sm:text-6xl">Hi, my name is Jeffrey Wong</h2>
           <p className="mt-6 text-lg leading-8 text-gray-300">
-          I'm 4th year statistics student who has dabbled with databases like MongoDB, 
+          I'm a graduate from UofT who specialized in statistics and has dabbled with databases like MongoDB, 
           game software like Unity and statistics tools like Jupyter and Rstudio. 
-          I'm always willing to try new things, currently I'm learning tailwindcss (Inspect this page!). 
+          I'm always willing to try new things, I've learned tailwindcss (Inspect this page!), and recently
+          I've learned how to make AI agents using Browser-use and Ollama. 
           With several years of experience in coding in various languages, 
           I can help modernize websites, create games, analyze data and more.
           </p>
