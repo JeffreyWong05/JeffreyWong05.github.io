@@ -10,7 +10,7 @@ const Careers =()=>{
         <div class="py-4">
             <div class="pl-[116px] pr-[205px] py-8">
                 <div class="text-7xl text-black font-bold">My projects</div>
-                <div class="lead-xl font-light py-1">Also called my portfolio</div>
+                <div class="lead-xl font-light py-1">Here are some of my personal projects</div>
             </div>
         </div>
     <div class="flex flex-col px-5 md:px-5 lg:flex-row items-center justify-center gap-6 py-6">
@@ -51,7 +51,7 @@ const Careers =()=>{
         </div> 
         <div class="">
             <iframe width="100%" height="400px" src="https://www.youtube.com/embed/DYnyIHmRpmA"/>
-            <div class="px-9 pt-10 pb-14 bg-green-200/[.95] rounded-b-lg flex-grow-1">
+            <div class="px-9 pt-10 pb-14 bg-red-50/[.95] rounded-b-lg flex-grow-1">
                 <div class="text-black space-y-4">
                     <h3 class="text-xl font-bold lead-xl bold">Plant Defence</h3>
                     <div class="text-lg font-light"> A short game designed in unity, our team created a tower defence game in 
@@ -116,8 +116,8 @@ const Careers =()=>{
         </div> 
         <div class="">
             <iframe width="100%" height="400px" src="https://www.youtube.com/embed/lUA6NrDILFU"/>
-            <div class="px-9 pt-10 pb-14 bg-stone-800/[.95] rounded-b-lg flex-grow-1">
-                <div class="text-white space-y-4">
+            <div class="px-9 pt-10 pb-14 bg-red-200/[.95] rounded-b-lg flex-grow-1">
+                <div class="text-black space-y-4">
                     <h3 class="text-xl font-bold lead-xl bold">Ramen Recommender</h3>
                     <div class="text-lg font-light"> Based on user input, offers suggestions based on location, rating, 
                 type of noodle, and other factors for the Ramen you want.
@@ -147,6 +147,42 @@ const Careers =()=>{
             </div>
         </div> 
     </div>
+    
+    <div class="flex flex-col px-5 md:px-5 lg:flex-row items-center justify-center gap-6 py-6">
+        <div>
+        <iframe width="100%" height="400px" src="https://www.youtube.com/embed/9ATIa8JCdfE?si"/>
+            <div class="px-9 pt-10 pb-14 bg-red-100/[.95] rounded-b-lg">
+                <div class="text-black space-y-4">
+                    <h3 class="text-xl font-bold lead-xl bold">Automated AI anime recommender</h3>
+                    <div width = "30px" class="text-lg font-light"> I designed and deployed a fully automated bot that posts the top 3 trending anime daily on Bluesky, 
+                        combining multiple APIs and workflow automation.
+Using Make.com, I connected to Google Sheets (for structured data handling) 
+and OpenRouter with DeepSeek AI (for content generation and formatting). 
+I set up variables, filters, and conditional logic to ensure each post is different. You can check out my bot posting daily with the button below.</div>
+                </div>
+                <div class="flex justify-between pt-8">
+                    {/* <ul class="flex flex-col gap-y-2.5">
+                        <li class="flex space-x-3 text-white">
+                            <img width="50" height="50" src="https://img.icons8.com/ios-filled/50/FFFFFF/checked--v1.png" alt="checked--v1" class="w-6 h-6"/>
+                            <span class="paragraph-l font-bold">Item 1</span>
+                        </li>
+                            <li class="flex space-x-3 text-white">
+                             <img width="50" height="50" src="https://img.icons8.com/ios-filled/50/FFFFFF/checked--v1.png" alt="checked--v1" class="w-6 h-6"/>
+                            <span class="paragraph-l font-bold">Item 1</span>
+                        </li>
+                            <li class="flex space-x-3 text-white">
+                             <img width="50" height="50" src="https://img.icons8.com/ios-filled/50/FFFFFF/checked--v1.png" alt="checked--v1" class="w-6 h-6"/>
+                            <span class="paragraph-l font-bold">Item 1</span>
+                        </li>
+                    </ul> */}
+                    <div class="flex flex-col justify-end">
+                        <a href="https://bsky.app/profile/makecom007.bsky.social" class="py-3 px-6 bg-white text-primary-200 paragraph-m  rounded-full">Link to my Bluesky bot</a>
+                    </div>
+                </div>
+            </div>
+        </div> 
+    </div>
+
 </div>
 
             </div>

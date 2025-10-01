@@ -883,13 +883,13 @@ video {
   background-color: rgb(17 24 39 / var(--tw-bg-opacity, 1));
 }
 
-.bg-green-200\/\[\.95\] {
-  background-color: rgb(187 247 208 / .95);
-}
-
 .bg-indigo-600 {
   --tw-bg-opacity: 1;
   background-color: rgb(79 70 229 / var(--tw-bg-opacity, 1));
+}
+
+.bg-red-100\/\[\.95\] {
+  background-color: rgb(254 226 226 / .95);
 }
 
 .bg-red-200\/\[\.95\] {
@@ -898,10 +898,6 @@ video {
 
 .bg-red-50\/\[\.95\] {
   background-color: rgb(254 242 242 / .95);
-}
-
-.bg-stone-800\/\[\.95\] {
-  background-color: rgb(41 37 36 / .95);
 }
 
 .bg-white {
