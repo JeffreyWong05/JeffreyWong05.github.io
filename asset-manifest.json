@@ -1,20 +1,22 @@
 {
-  "main.css": "/static/css/main.532d129c.chunk.css",
-  "main.js": "/static/js/main.e4b13f33.chunk.js",
-  "main.js.map": "/static/js/main.e4b13f33.chunk.js.map",
-  "runtime~main.js": "/static/js/runtime~main.235c1412.js",
-  "runtime~main.js.map": "/static/js/runtime~main.235c1412.js.map",
-  "static/js/2.cd66c329.chunk.js": "/static/js/2.cd66c329.chunk.js",
-  "static/js/2.cd66c329.chunk.js.map": "/static/js/2.cd66c329.chunk.js.map",
-  "static/js/3.7f06be4c.chunk.js": "/static/js/3.7f06be4c.chunk.js",
-  "static/js/3.7f06be4c.chunk.js.map": "/static/js/3.7f06be4c.chunk.js.map",
-  "index.html": "/index.html",
-  "precache-manifest.1ce9bb6845b175d9031ff04b342cb75d.js": "/precache-manifest.1ce9bb6845b175d9031ff04b342cb75d.js",
-  "service-worker.js": "/service-worker.js",
-  "static/css/main.532d129c.chunk.css.map": "/static/css/main.532d129c.chunk.css.map",
-  "static/media/Jeffrey_Wong_Resume.pdf": "/static/media/Jeffrey_Wong_Resume.353666bc.pdf",
-  "static/media/main.css": "/static/media/pixilart-SKY_scaled_40x_pngcrushed2.246cba75.png",
-  "static/media/fallingTetroScreenshot.png": "/static/media/fallingTetroScreenshot.7558a9b1.png",
-  "static/media/night-pixilart_2_scaled_40x_pngcrushed.png": "/static/media/night-pixilart_2_scaled_40x_pngcrushed.43e8cad8.png",
-  "static/media/rainingTet.png": "/static/media/rainingTet.cea0d338.png"
+  "files": {
+    "main.css": "/static/css/main.f3ced6cc.css",
+    "main.js": "/static/js/main.f3f9cc30.js",
+    "static/js/453.44a5583d.chunk.js": "/static/js/453.44a5583d.chunk.js",
+    "static/media/pixilart-SKY_scaled_40x_pngcrushed2.png": "/static/media/pixilart-SKY_scaled_40x_pngcrushed2.1811116a522e440c80e8.png",
+    "static/media/blossom-pixilart_2_scaled_40x_pngcrushed.png": "/static/media/blossom-pixilart_2_scaled_40x_pngcrushed.52345307858bc6465057.png",
+    "static/media/rainingTet.png": "/static/media/rainingTet.07946766066cedb94eed.png",
+    "static/media/night-pixilart_2_scaled_40x_pngcrushed.png": "/static/media/night-pixilart_2_scaled_40x_pngcrushed.20b04402b6ccd31d9ac9.png",
+    "static/media/falling-tetrominos-pixilart_scaled_40x_pngcrushed2.png": "/static/media/falling-tetrominos-pixilart_scaled_40x_pngcrushed2.a8e941cd2391e2441408.png",
+    "static/media/Jeffrey_Wong_Resume.pdf": "/static/media/Jeffrey_Wong_Resume.6a4f278fcc1162c27c08.pdf",
+    "static/media/fallingTetroScreenshot.png": "/static/media/fallingTetroScreenshot.934ec5d956375a9e8c4f.png",
+    "index.html": "/index.html",
+    "main.f3ced6cc.css.map": "/static/css/main.f3ced6cc.css.map",
+    "main.f3f9cc30.js.map": "/static/js/main.f3f9cc30.js.map",
+    "453.44a5583d.chunk.js.map": "/static/js/453.44a5583d.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f3ced6cc.css",
+    "static/js/main.f3f9cc30.js"
+  ]
 }
