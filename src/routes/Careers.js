@@ -150,7 +150,7 @@ const Careers =()=>{
     
     <div class="flex flex-col px-5 md:px-5 lg:flex-row items-center justify-center gap-6 py-6">
         <div>
-        <iframe width="100%" height="400px" src="https://www.youtube.com/embed/9ATIa8JCdfE?si"/>
+        <iframe width="100%" height="400px" src="https://www.youtube.com/embed/a2DHUDUxZj8?si"/>
             <div class="px-9 pt-10 pb-14 bg-red-100/[.95] rounded-b-lg">
                 <div class="text-black space-y-4">
                     <h3 class="text-xl font-bold lead-xl bold">Automated AI anime recommender</h3>
