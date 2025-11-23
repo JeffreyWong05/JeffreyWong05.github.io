@@ -50,7 +50,7 @@ const Navbar =()=>{
 
 
 
-                  <nav class="bg-gray-800">
+                  <nav class="bg-gray-800 ">
   <div class="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
     <div class="relative flex h-16 items-center justify-between">
       <div class="absolute inset-y-0 left-0 flex items-center sm:hidden">
@@ -134,7 +134,7 @@ const Navbar =()=>{
   <div class="sm:hidden" id="mobile-menu">
     <div class="space-y-1 px-2 pb-3 pt-2">
       {/*<!-- Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" -->*/}
-      <a href="#" id="homebtn" onClick={e => changeBtnBG(e.target.id)} class="bg-gray-900 text-white block rounded-md px-3 py-2 text-base font-medium" aria-current="page">Home</a>
+      <a href="#" id="homebtn" onClick={e => changeBtnBG(e.target.id)} class="text-gray-300 hover:bg-gray-700 hover:text-white block rounded-md px-3 py-2 text-base font-medium" aria-current="page">Home</a>
       <a href="#/about" id="aboutbtn" onClick={e => changeBtnBG(e.target.id)} class="text-gray-300 hover:bg-gray-700 hover:text-white block rounded-md px-3 py-2 text-base font-medium">About</a>
       <a href="#/careers" id="careerbtn" onClick={e => changeBtnBG(e.target.id)} class="text-gray-300 hover:bg-gray-700 hover:text-white block rounded-md px-3 py-2 text-base font-medium">Projects</a>
       <a href="#/TetrisBomb" id="tetrisbtn" onClick={e => changeBtnBG(e.target.id)} class="text-gray-300 hover:bg-gray-700 hover:text-white block rounded-md px-3 py-2 text-base font-medium">My Tetris</a>

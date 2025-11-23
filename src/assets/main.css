@@ -905,6 +905,10 @@ video {
   background-color: rgb(255 255 255 / var(--tw-bg-opacity, 1));
 }
 
+.bg-white\/70 {
+  background-color: rgb(255 255 255 / 0.7);
+}
+
 .bg-\[url\(\'\.\.\/img\/blossom-pixilart_2_scaled_40x_pngcrushed\.png\'\)\] {
   background-image: url('../img/blossom-pixilart_2_scaled_40x_pngcrushed.png');
 }
@@ -1065,20 +1069,12 @@ video {
   padding-left: 2.25rem;
 }
 
-.pl-\[116px\] {
-  padding-left: 116px;
-}
-
 .pl-\[290px\] {
   padding-left: 290px;
 }
 
 .pr-2 {
   padding-right: 0.5rem;
-}
-
-.pr-\[205px\] {
-  padding-right: 205px;
 }
 
 .pt-10 {
@@ -1114,11 +1110,6 @@ video {
 .text-4xl {
   font-size: 2.25rem;
   line-height: 2.5rem;
-}
-
-.text-7xl {
-  font-size: 4.5rem;
-  line-height: 1;
 }
 
 .text-base {
@@ -1492,6 +1483,10 @@ video {
 
 @media (min-width: 768px) {
 
+  .md\:absolute {
+    position: absolute;
+  }
+
   .md\:-ml-4 {
     margin-left: -1rem;
   }
@@ -1503,6 +1498,11 @@ video {
   .md\:px-5 {
     padding-left: 1.25rem;
     padding-right: 1.25rem;
+  }
+
+  .md\:text-7xl {
+    font-size: 4.5rem;
+    line-height: 1;
   }
 }
 

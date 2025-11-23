@@ -2,15 +2,15 @@ import { Link } from "react-router-dom"
 import React, { Component }  from 'react';
 const Careers =()=>{
       return (
-            <div class="absolute inset-0 -z-10 w-full h-full bg-[url('../img/blossom-pixilart_2_scaled_40x_pngcrushed.png')] bg-scroll bg-cover overflow-y-auto">
+            <div class="md:absolute inset-0 -z-10 w-full h-full bg-[url('../img/blossom-pixilart_2_scaled_40x_pngcrushed.png')] bg-scroll bg-cover overflow-y-auto">
 
 
                   
 <div class="flex flex-col py-4 px-12">
         <div class="py-4">
-            <div class="pl-[116px] pr-[205px] py-8">
-                <div class="text-7xl text-black font-bold">My projects</div>
-                <div class="lead-xl font-light py-1">Here are some of my personal projects</div>
+            <div class="text-center py-8 px-4">
+                <div class="bg-white/70 ld:text-7xl md:text-7xl text-black font-bold">My projects</div>
+                <div class="bg-white/70 lead-xl font-light py-1">Here are some of my personal projects</div>
             </div>
         </div>
     <div class="flex flex-col px-5 md:px-5 lg:flex-row items-center justify-center gap-6 py-6">

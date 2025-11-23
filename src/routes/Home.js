@@ -25,10 +25,10 @@ const Home =()=>{
       ]
 
       return (
-            <div class="absolute inset-0 -z-10 w-full h-full bg-[url('../img/pixilart-SKY_scaled_40x_pngcrushed2.png')] bg-scroll bg-cover overflow-y-auto">
+            <div class=" md:absolute inset-0 -z-10 w-full h-full bg-[url('../img/pixilart-SKY_scaled_40x_pngcrushed2.png')] bg-scroll bg-cover overflow-y-auto">
             
     
-    <div class="mx-auto max-w-2xl py-32 sm:py-48 lg:py-40">
+    <div class=" mx-auto max-w-2xl py-32 sm:py-48 lg:py-40">
       <div class="hidden sm:mb-8 sm:flex sm:justify-center">
         <div class="relative rounded-full px-3 py-1 text-sm leading-6 text-gray-600 ring-1 ring-gray-900/10 hover:ring-gray-900/20">
           Check out my tetris-like game <a href="#/TetrisBomb" class="font-semibold text-indigo-600"><span class="absolute inset-0" aria-hidden="true"></span> here <span aria-hidden="true">&rarr;</span></a>
