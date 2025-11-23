@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.a9a54a9c.css",
-    "main.js": "/static/js/main.d9ea8537.js",
+    "main.css": "/static/css/main.fa79401e.css",
+    "main.js": "/static/js/main.8764a521.js",
     "static/js/453.44a5583d.chunk.js": "/static/js/453.44a5583d.chunk.js",
     "static/media/pixilart-SKY_scaled_40x_pngcrushed2.png": "/static/media/pixilart-SKY_scaled_40x_pngcrushed2.1811116a522e440c80e8.png",
     "static/media/blossom-pixilart_2_scaled_40x_pngcrushed.png": "/static/media/blossom-pixilart_2_scaled_40x_pngcrushed.52345307858bc6465057.png",
@@ -11,12 +11,12 @@
     "static/media/Jeffrey_Wong_Resume.pdf": "/static/media/Jeffrey_Wong_Resume.6a4f278fcc1162c27c08.pdf",
     "static/media/fallingTetroScreenshot.png": "/static/media/fallingTetroScreenshot.934ec5d956375a9e8c4f.png",
     "index.html": "/index.html",
-    "main.a9a54a9c.css.map": "/static/css/main.a9a54a9c.css.map",
-    "main.d9ea8537.js.map": "/static/js/main.d9ea8537.js.map",
+    "main.fa79401e.css.map": "/static/css/main.fa79401e.css.map",
+    "main.8764a521.js.map": "/static/js/main.8764a521.js.map",
     "453.44a5583d.chunk.js.map": "/static/js/453.44a5583d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.a9a54a9c.css",
-    "static/js/main.d9ea8537.js"
+    "static/css/main.fa79401e.css",
+    "static/js/main.8764a521.js"
   ]
 }
