@@ -3,7 +3,7 @@ import React, { Component }  from 'react';
 
 import { useState } from 'react'
 
-import Pdf from '../routes/Jeffrey_Wong_Resume.pdf';
+import Pdf from '../routes/Jeffrey_Wong_s_resume_for_the_UofT_Career_Fair.pdf';
 
 
 const Home =()=>{
